@@ -1,0 +1,74 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+build/
+vite-build/
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Optional cache
+.cache/
+.temp/
+.tmp/
+.vite/
+vite-cache/
+
+
+assets/
+
+# TypeScript
+*.tsbuildinfo
+
+# Testing
+coverage/
+*.lcov
+
+# Storybook
+.out/
+storybook-static/
+
+# SvelteKit / Nuxt / Next optional
+.vercel/
+.netlify/
+.output/
+
+# Lock files (optional – if you want reproducible installs, keep them)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
