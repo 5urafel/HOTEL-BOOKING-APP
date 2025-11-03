@@ -39,17 +39,18 @@ const Navbar = () => {
   const location = useLocation();
 
   useEffect(() => {
-    if (location.pathname !== "/") {
-      setIsScrolled(true);
-    } else {
-      setIsScrolled(false);
-    }
+    // Set initial scroll state based on pathname
+    setIsScrolled(location.pathname !== "/");
 
-    setIsScrolled((prev) => (location.pathname !== "/" ? true : prev));
+    // Define scroll handler
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 10);
+      setIsScrolled(window.scrollY > 10 || location.pathname !== "/");
     };
+
+    // Add event listener
     window.addEventListener("scroll", handleScroll);
+
+    // Cleanup
     return () => window.removeEventListener("scroll", handleScroll);
   }, [location.pathname]);
 
