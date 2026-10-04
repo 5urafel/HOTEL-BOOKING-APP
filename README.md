@@ -1,9 +1,3 @@
-
----
-
-# HOTEL-BOOKING-APP
-
-```markdown
 # 🏨 Hotel Booking & Reservation Management System
 
 An intuitive, responsive hotel booking web application featuring a customer search interface and a dedicated hotel owner portal for property management.
