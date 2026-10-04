@@ -1,7 +1,7 @@
 
 ---
 
-# 2. HOTEL-BOOKING-APP
+# HOTEL-BOOKING-APP
 
 ```markdown
 # 🏨 Hotel Booking & Reservation Management System
